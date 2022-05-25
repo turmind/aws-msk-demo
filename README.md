@@ -33,3 +33,9 @@ Java version: 1.8.0_292, vendor: AdoptOpenJDK, runtime: /Library/Java/JavaVirtua
 Default locale: en_CN, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 ```
+
+## reference
+
+[AWS BLOG](https://aws.amazon.com/cn/blogs/big-data/securing-apache-kafka-is-easy-and-familiar-with-iam-access-control-for-amazon-msk/)
+[AWS DOCUMENT](https://docs.aws.amazon.com/msk/latest/developerguide/create-serverless-cluster-client.html)
+[CODE](https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm)
