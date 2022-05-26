@@ -23,8 +23,8 @@ public class App {
       // create instance for properties to access producer configs   
       Properties props = new Properties();
       
-      //Assign localhost id
-      props.put("bootstrap.servers", "boot-srtdayv0.c2.kafka-serverless.ap-northeast-1.amazonaws.com:9098");
+      //Assign localhost id, change the $endpoint to msk endpoint
+      props.put("bootstrap.servers", "$endpoint");
       
       //Set acknowledgements for producer requests.      
       props.put("acks", "all");
